@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Javaduplicatecheck
+class duplicatecheck
 {
     public static void countDuplicateCharacters(String str)
     {
@@ -27,7 +27,7 @@ class Javaduplicatecheck
     }
     public static void main(String args[])
     {
-        String str = "This is my first java code";
+        String str = "Thank you all for the opportunity";
         countDuplicateCharacters(str);
     }
 }

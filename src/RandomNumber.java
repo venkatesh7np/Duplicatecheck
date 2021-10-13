@@ -25,15 +25,15 @@ import java.util.SortedSet;
                 }
                 else if (guess < numTogGuess)
                 {
-                    System.out.println("your guess is too low");
+                    System.out.println("Too low, Try Again");
                 }
                 else if (guess > numTogGuess)
                 {
-                    System.out.println("your guess is too high");
+                    System.out.println("Too high, Try Again");
                 }
             }
             System.out.println("you win");
             System.out.println("the number was" + " " + numTogGuess);
-            System.out.println("you take" + " " + numOfTries + " tries to guess");
+            System.out.println("you took " + " " + numOfTries + " tries to guess");
         }
     }

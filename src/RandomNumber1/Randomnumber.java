@@ -35,8 +35,8 @@ public class  Randomnumber implements Guessing
                 System.out.println("Too high, Try Again");
             }
         }
-        System.out.println("you win");
-        System.out.println("the number was" + " " + num_To_be_Guessed);
+        System.out.println("you won");
+        System.out.println(" Number guessed is" + " " + num_To_be_Guessed);
         System.out.println("you took " + " " + numOfTries + " tries to guess");
     }
         public void StoringResult() {

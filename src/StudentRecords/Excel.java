@@ -17,7 +17,7 @@ public class Excel
         Workbook w = Workbook.getWorkbook(fis);
         Sheet s = w.getSheet("Sheet1");
 
-        FileWriter MyWriter = new FileWriter("D:\\Atmecs\\Assignments\\RecordsData.json");
+        FileWriter MyWriter = new FileWriter("D:\\Atmecs\\Assignments\\RecordsData22.json");
         for (int j = 1; j < s.getRows(); j++)
         {
             JSONObject obj = new JSONObject();
